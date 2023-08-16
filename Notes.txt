@@ -1,0 +1,79 @@
+// App.js code
+
+// function App() {
+//   let myvar= 22534;
+//   return (
+//     <div className="App">
+//       <div>{myvar}</div>
+//       {/* <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Edit <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React
+//         </a>
+//       </header> */}
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// First try
+// function App() {
+//   const [username, setUsername] = useState('');
+//   const [password, setPassword] = useState('');
+
+//   const handleLogin = (e) => {
+//     e.preventDefault();
+//     // Handle login logic here, e.g. send API request to server
+//     console.log(`Logged in with username: ${username} and password: ${password}`);
+//   };
+
+//   return (
+//     <div className="App">
+//       <form onSubmit={handleLogin}>
+//         <label>
+//           Username:
+//           <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+//         </label>
+//         <label>
+//           Password:
+//           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+//         </label>
+//         <button type="submit">Login</button>
+//       </form>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+
+
+
+
+index.js
+
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
